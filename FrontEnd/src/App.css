@@ -1,0 +1,123 @@
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1.e404{
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20px;
+  color: #6e7dab;
+}
+
+.error_message{
+  color: red;
+}
+
+.barra_navegacion{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+  background-color: #575366;
+}
+
+.barra_navegacion a{
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+img.logo{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.barra_navegacion .logo{
+  display: flex;
+  align-items: center;
+}
+
+.barra_navegacion .logo h1{
+  margin-left: 10px;
+  font-size: 2em;
+}
+
+.barra_navegacion .logo a{
+  padding: 0 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #fff;
+}
+
+.table thead tr th {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+  opacity: 1;
+  padding: 12px;
+  vertical-align: top;
+  border: 1px solid #ffff87;
+  color: #575366;
+}
+
+.table tbody tr td {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  font-weight: normal;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ffff87;
+  color: #fff;
+  background-color: #575366;
+}
+
+.table tbody tr td a {
+  text-decoration: none;
+  color: #1a1426;
+}
+
+.table tbody tr td a.det {
+  color: #419641;
+}
+
+.table tbody tr td a.link_actualizar{
+  color: #ffff87
+}
+
+.table tbody tr td a.link_eliminar{
+  color: #c65350
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #ebe9f1;
+  color: white;
+
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #575366;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
